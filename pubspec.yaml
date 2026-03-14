@@ -1,0 +1,46 @@
+name: finance_tracker
+description: A modern personal finance tracker with SQLite local database.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # SQLite database for local persistent storage
+  sqflite: ^2.3.0
+
+  # File path utilities (to locate database file on device)
+  path: ^1.9.0
+
+  # Icons pack
+  cupertino_icons: ^1.0.6
+
+  # Smooth animations
+  flutter_animate: ^4.5.0
+
+  # Intl for date/currency formatting
+  intl: ^0.20.2
+
+  # UUID for generating unique IDs
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1   # <-- icon uchun qo'shildi
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icons/app_icon.png   # <-- icon joyi
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
