@@ -98,7 +98,7 @@ class _HomeScreenState extends State<HomeScreen>
                             style: AppTheme.bodySmall,
                           ),
                           const Text(
-                            'Daromadim', // my finances
+                            'My Finances',
                             style: AppTheme.headlineMedium,
                           ),
                         ],
