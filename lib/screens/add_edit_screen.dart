@@ -234,7 +234,7 @@ class _AddEditScreenState extends State<AddEditScreen> {
                         setState(() => _type = TransactionType.expense),
                   ),
                   _TypeButton(
-                    label: 'Income',
+                    label: 'Darmomad', // income
                     icon: Icons.arrow_upward_rounded,
                     color: AppTheme.incomeGreen,
                     isSelected: _type == TransactionType.income,
