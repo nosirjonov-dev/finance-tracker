@@ -226,7 +226,7 @@ class _AddEditScreenState extends State<AddEditScreen> {
               child: Row(
                 children: [
                   _TypeButton(
-                    label: 'Expense',
+                    label: 'Xarajat', //Expense
                     icon: Icons.arrow_downward_rounded,
                     color: AppTheme.expenseRose,
                     isSelected: _type == TransactionType.expense,
